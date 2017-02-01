@@ -1,0 +1,23 @@
+ul.pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  li {
+    display: inline;
+    a {
+      color: black;
+      float: left;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color .3s;
+    }
+    a:hover:not(.active) {background-color: #ddd;}
+  }
+  li.active {
+    .page-link {
+      background-color: #ff4081;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,129 @@
+form {
+  .form-section {
+    margin: 15px 0;
+    .form-field {
+      width: 100% !important;
+    }
+  }
+  .form-section:first-child  {
+    margin-top: 0;
+  }
+  .form-section:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.form-banners-search{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: white;
+  border:none;
+  box-shadow: 0 0 0 0px;
+
+  .banners-search-input {
+    margin-right: 10px;
+  }
+  .banners-search-button {
+    margin-left:10px;
+  }
+
+  .half-row {
+    box-sizing: border-box;
+    width:50%;
+    display:inline-block;
+  }
+  .inline {
+    display: inline-block !important;
+  }
+  .right {
+    float: right;
+  }
+}
+
+.half-row {
+  box-sizing: border-box;
+  width:50%;
+  display:inline-block;
+  padding-left: 10px;
+}
+
+.right {
+  float: right;
+  img {
+    width: 100%;
+  }
+}
+
+.wysiwig {
+  border: solid 1px lightgray;
+  background-color: lightcyan;
+  margin-bottom: 10px;
+  width: 500px;
+  padding: 10px;
+}
+
+.RichEditor-root {
+  background: #fff;
+  border: 1px solid #ddd;
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.RichEditor-editor {
+  border-top: 1px solid #ddd;
+  cursor: text;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.RichEditor-editor .public-DraftEditorPlaceholder-root,
+.RichEditor-editor .public-DraftEditor-content {
+  margin: 0 -15px -15px;
+  padding: 15px;
+}
+
+.RichEditor-editor .public-DraftEditor-content {
+  min-height: 100px;
+}
+
+.RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+  display: none;
+}
+
+.RichEditor-editor .RichEditor-blockquote {
+  border-left: 5px solid #eee;
+  color: #666;
+  font-family: 'Hoefler Text', 'Georgia', serif;
+  font-style: italic;
+  margin: 16px 0;
+  padding: 10px 20px;
+}
+
+.RichEditor-editor .public-DraftStyleDefault-pre {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: 'Inconsolata', 'Menlo', 'Consolas', monospace;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.RichEditor-controls {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+.RichEditor-styleButton {
+  color: #999;
+  cursor: pointer;
+  margin-right: 16px;
+  padding: 2px 0;
+  display: inline-block;
+}
+
+.RichEditor-activeButton {
+  color: #5890ff;
+}
+

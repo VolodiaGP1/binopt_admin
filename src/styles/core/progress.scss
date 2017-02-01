@@ -1,0 +1,18 @@
+#nprogress {
+  .bar {
+    background-color: #ff568f !important;
+    z-index:3000 !important;
+  }
+  .spinner {
+    top: 81px !important;
+    right: 23px !important;
+  }
+  .spinner-icon {
+    border-top-color: #ff568f;
+    border-left-color: #ff568f;
+  }
+  .peg {
+    box-shadow: 0 0 10px #ff568f, 0 0 5px #ff568f;
+  }
+
+}

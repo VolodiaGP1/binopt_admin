@@ -1,0 +1,25 @@
+:global {
+  .header {
+    height: 65px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: #3d444c;
+  }
+  .menu-place {
+    width: 20%;
+    margin-top: 65px;
+    padding: 10px;
+    display: inline-block;
+    height: 100%;
+    background: ghostwhite;
+  }
+  .page-content {
+    display: inline-block;
+    width: 75%;
+    float: right;
+    margin-top: 80px;
+    padding: 20px;
+  }
+}

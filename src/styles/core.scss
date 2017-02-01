@@ -1,0 +1,12 @@
+:global {
+  @import 'forms/forms';
+
+  @import 'core/progress';
+
+  @import 'core/pagination';
+
+  .toolbar-group {
+    width:50% !important;
+  }
+
+}
